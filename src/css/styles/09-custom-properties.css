@@ -38,6 +38,7 @@
 
 .parent {
   border: inherit;
+
   .child {
     color: black;
     border: inherit;
