@@ -14,7 +14,6 @@ body *::after {
 /* flex 파헤치기 */
 /* 플렉스 컨테이너 관련 속성 */
 .case-01 {
-  margin-block-start: 600px;
   display: flex;
   /* flex-direction: row;
   flex-wrap: nowrap; */
