@@ -8,6 +8,11 @@
     display: flex;
     flex-flow: row wrap;
 
+    .box,
+    .wrapper {
+      display: contents;
+    }
+
     .header,
     .navigation,
     .footer {
@@ -46,21 +51,6 @@
   background: var(--pastel-green);
   height: 15vh;
 }
-
-/* 메인 콘텐츠와 사이드바 그룹(.wrapper)
-.wrapper {
-  border: 10px solid red;
-
-  @media (min-width: 768px) {
-    display: flex;
-
-    .content,
-    .sidebar {
-      flex: 1 0 0;
-      block-size: 65vh;
-    }
-  }
-} */
 
 /* 메인 콘텐츠 */
 .content {
